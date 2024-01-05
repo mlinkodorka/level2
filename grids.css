@@ -1,0 +1,46 @@
+.showcase_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.grid_2_0{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.grid_2_0 div {
+    background-size: cover;
+    background-position: left;
+    border-radius: 2.5%;
+}
+
+.showcase_grid div{
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2.5%;
+}
+
+.showcase_img1{
+    background-image: url(kepek/kep1.jpg);
+}
+
+.showcase_img2{
+    background-image: url(kepek/kep2.jpg);
+}
+
+.showcase_img3{
+    background-image: url(kepek/kep3.jpg);
+}
+
+.showcase_img4{
+    background-image: url(kepek/kep4.jpg);
+    height: 300px;
+}
+
+.text_class1{
+    margin: auto;
+}

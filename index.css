@@ -1,0 +1,47 @@
+@import url(grids.css);
+@import url(buttons.css);
+body {
+    font-family: "Raleway";
+    max-width: 1150px;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    padding: 15px;
+  
+}
+
+header h1{
+    margin-bottom: -7px;
+}
+header p {
+    font-style: italic;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr 1fr;
+    gap: 2.5px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav div{
+margin: auto;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a {
+    width: fit-content;
+}
+
+.ar {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}

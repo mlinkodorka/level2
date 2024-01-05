@@ -1,0 +1,10 @@
+.button{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+
+.button_primary {
+    background-color: black;
+    color: white;
+}
