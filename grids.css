@@ -13,9 +13,11 @@
 
 .grid_2_0{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.75fr 1.25fr;
     gap: 30px;
     padding: 50px 0;
+    text-align: left;
+    padding-left: 30px;
 }
 
 .grid_2_0 div {
@@ -45,8 +47,9 @@
 }
 
 .showcase_img4{
-    background-image: url(kepek/kep4.jpg);
-    height: 350px;
+    background-image: url(kepek/hatter2.png);
+    height: 300px;
+    padding-right: 30px;
 }
 
 .text_class1{

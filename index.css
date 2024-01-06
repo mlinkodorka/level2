@@ -4,25 +4,28 @@ body {
     font-family: "Raleway";
     max-width: 1150px;
     margin: auto;
-    padding: 10px;
+    padding: 30px;
 }
 
 header{
     text-align: center;
     padding: 15px;
-  
+    grid-template-columns: 5fr 1fr;
 }
 
 header h1{
     margin-bottom: -7px;
+    font-size: 50px;
 }
 header p {
     font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 nav{
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 2fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
     gap: 2.5px;
     font-size: 15px;
     margin-top: 20px;
@@ -57,6 +60,31 @@ nav a {
 }
 
 .ar {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.prouducts{
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.mid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.mid div{
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px;
+}
+
+.mid_text {
+    text-align: center;
     padding-top: 0.5rem;
     padding-bottom: 1rem;
 }
